@@ -23,14 +23,20 @@
 ### 설치 방법
 
 1. 저장소 클론:
+```bash
 git clone https://github.com/ehdtjr/retrieval_docs_agent.git
 cd retrieval_docs_agent
+```
 
 2. Poetry로 의존성 설치:
+```bash
 poetry install
+```
 
 3. Docker Compose로 PostgreSQL 실행:
+``` bash
 docker-compose up -d
+```
 
 ### 프로젝트 구조
 ```bash
